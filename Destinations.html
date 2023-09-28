@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Travel Blog" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Suraj Naithani" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Travel Blog</title>
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header class="header">
+      <img src="./img/logo.png" alt="logo" class="logo" />
+      <nav class="navbar" id="navbar">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about us.html">About us</a></li>
+          <li><a href="/Destinations.html">Destinations</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+        </ul>
+        <img
+          src="./img/menu.png"
+          alt=""
+          class="icon logo"
+          onclick="toggleNav()"
+          id="menuIcon"
+        />
+        <img
+          src="./img/close.png"
+          class="icon logo"
+          alt=""
+          id="closeIcon"
+          style="display: none"
+          onclick="toggleNav()"
+        />
+      </nav>
+    </header>
+
+    <!-- herosection -->
+    <section class="section-hero">
+      <div class="hero">
+        <h1>Destinations</h1>
+        <p class="para">Wonderland where we've visited</p>
+      </div>
+    </section>
+
+    <!-- explore -->
+    <section class="section section-pop">
+      <div class="container">
+        <div class="most-pop">
+          <p class="para">Explore</p>
+          <h2 class="common-heading">The world. It’s always there for you.</h2>
+          <p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- parallex  -->
+    <section class="section-parallex">
+      <div class="section section-content">
+        <div class="container grid grid-two-column">
+          <div class="left-para">
+            <p class="para">Special Story</p>
+            <h3 class="common-heading">The Story of borobudur temple.</h3>
+            <p class="para">
+              What You Might Haven’t Known about Borobudur Temple in Indonesia
+            </p>
+            <p class="para">
+              Magnificent ancient marvel in Indonesia. Symbolic Buddhist
+              monument with rich history, stunning architecture, and spiritual
+              significance.
+            </p>
+            <a href="#" class="btn">More story</a>
+          </div>
+          <div class="right-para">
+            <img src="./img/6.jpg" class="img" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Continents Exploration -->
+    <section class="section section-pop">
+      <div class="container">
+        <div class="most-pop">
+          <p class="para">Place</p>
+          <h2 class="common-heading">Continents Exploration</h2>
+          <p class="para">
+            Asia's diversity, Africa's wildlife, North America's innovation,
+            South America's culture, Antarctica's isolation, Europe's history,
+            and Oceania's uniqueness.
+          </p>
+        </div>
+        <div class="grid grid-three-column img-pop">
+          <div class="explore contain-img flip-container">
+            <div class="flip-img">
+              <img src="./img/aisa.jpg" alt="" />
+            </div>
+            <div class="heading">
+              <h2>Asia</h2>
+              <p>30% Exploration</p>
+            </div>
+            <div class="grid-content" id="grid-content">
+              <h3>Asia</h3>
+              <p>
+                Asia, Earth's largest continent, boasts diverse cultures,
+                breathtaking landscapes, ancient history, vibrant cities, and
+                rich culinary traditions. Explore its wonders!
+              </p>
+              <a href="#" class="btn">Let's Explore</a>
+            </div>
+          </div>
+          <!--  -->
+          <div class="explore contain-img flip-container">
+            <div class="flip-img">
+              <img src="./img/africa.jpg" alt="" />
+            </div>
+            <div class="heading">
+              <h2>Africa</h2>
+              <p>40% Exploration</p>
+            </div>
+            <div class="grid-content" id="grid-content">
+              <h3>Africa</h3>
+              <p>
+                Africa's natural wonders include vast deserts, dense jungles,
+                and wildlife galore. Its rich history and diverse cultures add
+                depth to its enchanting allure.
+              </p>
+              <a href="#" class="btn">Let's Explore</a>
+            </div>
+          </div>
+          <div class="explore contain-img flip-container">
+            <div class="flip-img">
+              <img src="./img/northamerica.jpg" alt="" />
+            </div>
+            <div class="heading">
+              <h2>North America</h2>
+              <p>50% Exploration</p>
+            </div>
+            <div class="grid-content" id="grid-content">
+              <h3>North America</h3>
+              <p>
+                From the skyscrapers of New York to the wilderness of Alaska,
+                North America boasts diverse geography, cultures, and a spirit
+                of innovation.
+              </p>
+              <a href="#" class="btn">Let's Explore</a>
+            </div>
+          </div>
+          <div class="explore contain-img flip-container">
+            <div class="flip-img">
+              <img src="./img/southamerica.jpg" alt="" />
+            </div>
+            <div class="heading">
+              <h2>South America</h2>
+              <p>20% Exploration</p>
+            </div>
+            <div class="grid-content" id="grid-content">
+              <h3>South America</h3>
+              <p>
+                Home to the Amazon rainforest, Andes mountains, and vibrant
+                cities like Rio de Janeiro, South America invites exploration of
+                biodiversity and cultural richness.
+              </p>
+              <a href="#" class="btn">Let's Explore</a>
+            </div>
+          </div>
+          <div class="explore contain-img flip-container">
+            <div class="flip-img">
+              <img src="./img/europe.jpg" alt="" />
+            </div>
+            <div class="heading">
+              <h2>Europe</h2>
+              <p>65% Exploration</p>
+            </div>
+            <div class="grid-content" id="grid-content">
+              <h3>Europe</h3>
+              <p>
+                Europe's historic cities, breathtaking landscapes, and artistic
+                heritage offer a captivating journey through time, with diverse
+                cultures adding richness to every corner.
+              </p>
+              <a href="#" class="btn">Let's Explore</a>
+            </div>
+          </div>
+          <div class="explore contain-img flip-container">
+            <div class="flip-img">
+              <img src="./img/australia.jpg" alt="" />
+            </div>
+            <div class="heading">
+              <h2>Australia</h2>
+              <p>60% Exploration</p>
+            </div>
+            <div class="grid-content" id="grid-content">
+              <h3>Australia</h3>
+              <p>
+                Oceania's vast expanses encompass the rugged Australian outback,
+                stunning Pacific islands, and a blend of ancient indigenous
+                cultures with modern charm, creating a unique travel experience.
+              </p>
+              <a href="#" class="btn">Let's Explore</a>
+            </div>
+          </div>
+          <div class="explore contain-img flip-container">
+            <div class="flip-img">
+              <img src="./img/antarctica.jpg" alt="" />
+            </div>
+            <div class="heading">
+              <h2>Antarctica</h2>
+              <p>90% Exploration</p>
+            </div>
+            <div class="grid-content" id="grid-content">
+              <h3>Antarctica</h3>
+              <p>
+                A pristine realm of ice and solitude, Antarctica's unique
+                ecosystems and scientific research make it an unparalleled
+                destination for adventure seekers.
+                <a href="#" class="btn">Let's Explore</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- speccial story -->
+    <section class="section section-special">
+      <div class="container">
+        <div class="grid grid-two-column">
+          <div class="left-con">
+            <p class="para">Special story from Japan</p>
+            <h3 class="common-heading">
+              30 Japan Experiences to Add to Your Bucket List
+            </h3>
+            <p class="para">
+              Often, the accumulation of hunger in societies can be like that.
+              Pregnant with pure, solicitous requests, it's often porticoed.
+              Sometimes, no augury is a pretentious introduction, where
+              bibulousness tells the story. In the field, integer-effacing
+              mollusks. Ullamcorper convallis orci turpis lectus, not
+              non-consequential mattis ipsum, it's ridiculous. Condimentum
+              penatibus posuere quam mollis, more efficient. To the bed, gravity
+              is not always an essential part of egestas, imperdiet maximus, and
+              sagittis diam. Porticoed est to the per suscipit societies eros.
+            </p>
+            <a href="#" class="btn">Read full story</a>
+          </div>
+          <div class="right-con">
+            <img src="./img/8.jpg" class="img" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section class="section section-explore">
+      <div class="container">
+        <div class="grid grid-two-column explore">
+          <div class="explore">
+            <h3 class="common">Latest Article</h3>
+            <div class="two">
+              <img src="./img/1.jpg" alt="" />
+              <div class="explore-culinary">
+                <a href="">A History of Tokyo in 8 Dishes</a>
+                <p class="para">Barbara Melton</p>
+              </div>
+            </div>
+            <div class="two">
+              <img src="./img/5.jpg" alt="" />
+              <div class="explore-culinary">
+                <a href="">A History of Tokyo in 8 Dishes</a>
+                <p class="para">Barbara Melton</p>
+              </div>
+            </div>
+            <div class="two">
+              <img src="./img/6.jpg" alt="" />
+              <div class="explore-culinary">
+                <a href="">A History of Tokyo in 8 Dishes</a>
+                <p class="para">Barbara Melton</p>
+              </div>
+            </div>
+            <div class="two">
+              <img src="./img/4.jpg" alt="" />
+              <div class="explore-culinary">
+                <a href="">A History of Tokyo in 8 Dishes</a>
+                <p class="para">Barbara Melton</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="explore">
+            <h3 class="common">Explore Culinary</h3>
+            <div class="two">
+              <img src="./img/1.jpg" alt="" />
+              <div class="explore-culinary">
+                <a href="">A History of Tokyo in 8 Dishes</a>
+                <p class="para">Barbara Melton</p>
+              </div>
+            </div>
+            <div class="two">
+              <img src="./img/5.jpg" alt="" />
+              <div class="explore-culinary">
+                <a href="">A History of Tokyo in 8 Dishes</a>
+                <p class="para">Barbara Melton</p>
+              </div>
+            </div>
+            <div class="two">
+              <img src="./img/6.jpg" alt="" />
+              <div class="explore-culinary">
+                <a href="">A History of Tokyo in 8 Dishes</a>
+                <p class="para">Barbara Melton</p>
+              </div>
+            </div>
+            <div class="two">
+              <img src="./img/4.jpg" alt="" />
+              <div class="explore-culinary">
+                <a href="">A History of Tokyo in 8 Dishes</a>
+                <p class="para">Barbara Melton</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="section">
+        <div class="container footer-sec">
+          <div class="grid grid-four-column footer-section">
+            <div class="first-col">
+              <h3>About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+            <div class="second-col">
+              <h3 class="">Categories</h3>
+              <p>Travel</p>
+              <p>Culinary</p>
+              <p>Local Culture</p>
+              <p>Backpacker</p>
+              <p>Backpacker</p>
+            </div>
+            <div class="third-col">
+              <h3>Destinations</h3>
+              <p>Asia</p>
+              <p>Europe</p>
+              <p>America</p>
+              <p>Africa</p>
+              <p>Australia</p>
+            </div>
+            <div class="fourth-col">
+              <h3>Get in touch</h3>
+              <p><a href="./contact.html">Contact Us</a></p>
+              <p>FAQ</p>
+              <p>Community</p>
+            </div>
+          </div>
+          <hr />
+          <br />
+          <div class="para">
+            <p>
+              © Copyright
+              <span id="copyright">
+                <script>
+                  document
+                    .getElementById("copyright")
+                    .appendChild(
+                      document.createTextNode(new Date().getFullYear())
+                    );
+                </script>
+              </span>
+              , All rights reserved!
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

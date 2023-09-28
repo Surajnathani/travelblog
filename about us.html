@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Travel Blog" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Suraj Naithani" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Travel Blog</title>
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header class="header">
+      <img src="./img/logo.png" alt="logo" class="logo" />
+      <nav class="navbar" id="navbar">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about us.html">About us</a></li>
+          <li><a href="/Destinations.html">Destinations</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+        </ul>
+        <img
+          src="./img/menu.png"
+          alt=""
+          class="icon logo"
+          onclick="toggleNav()"
+          id="menuIcon"
+        />
+        <img
+          src="./img/close.png"
+          class="icon logo"
+          alt=""
+          id="closeIcon"
+          style="display: none"
+          onclick="toggleNav()"
+        />
+      </nav>
+    </header>
+
+    <!-- herosection -->
+    <section class="section-hero">
+      <div class="hero">
+        <h1>About Us</h1>
+        <p class="para">Journeys, explorations, and adventures</p>
+      </div>
+    </section>
+    <!-- content  -->
+    <section class="section section-content">
+      <div class="container">
+        <div class="grid grid-two-column">
+          <div class="left">
+            <p class="para">Who we are</p>
+            <h3 class="common-heading">
+              Change your attitude by changing latitudes.
+            </h3>
+            <p class="para">
+              Orci torquent fames velit ultricies nec quam magna. Adipiscing ex
+              curabitur litora lectus integer quisque nibh ridiculus. Inceptos
+              pede imperdiet dis ridiculus turpis tristique scelerisque ac
+              parturient.
+            </p>
+            <p class="para">
+              Orci torquent fames velit ultricies nec quam magna. Adipiscing ex
+              curabitur litora lectus integer quisque nibh ridiculus. Inceptos
+              pede imperdiet dis ridiculus turpis tristique scelerisque ac
+              parturient.
+            </p>
+            <a href="#" class="btn">Learn more</a>
+          </div>
+          <div class="right">
+            <img src="./img/3.jpg" alt="" class="img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- parallex  -->
+    <section class="section-parallex">
+      <div class="section section-content">
+        <div class="container grid grid-two-column">
+          <div class="left-para">
+            <p class="para">Special Story</p>
+            <h3 class="common-heading">The Story of borobudur temple.</h3>
+            <p class="para">
+              What You Might Haven’t Known about Borobudur Temple in Indonesia
+            </p>
+            <p class="para">
+              Magnificent ancient marvel in Indonesia. Symbolic Buddhist
+              monument with rich history, stunning architecture, and spiritual
+              significance.
+            </p>
+            <a href="#" class="btn">More story</a>
+          </div>
+          <div class="right-para">
+            <img src="./img/6.jpg" class="img" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- popular -->
+    <section class="section section-pop">
+      <div class="container">
+        <div class="most-pop">
+          <p class="para">Our Passion</p>
+          <h2 class="common-heading">
+            Turning travel passions into travel plans
+          </h2>
+        </div>
+        <div class="grid grid-two-column img-pop">
+          <div class="explore">
+            <p>
+              Nulla lacus cras ipsum sodales tristique lectus euismod felis non
+              finibus auctor. Purus rhoncus facilisis nullam laoreet mauris
+              rutrum sem praesent phasellus quis cras. Neque morbi aliquet
+              curabitur diam sociosqu pellentesque elementum fringilla vehicula
+              interdum. Gravida primis sed lacinia aliquet in velit ad
+              consectetur vitae morbi suspendisse.
+            </p>
+            <p class="para">
+              Curabitur placerat cras eros duis adipiscing morbi litora
+              tristique luctus. Hendrerit venenatis a tempus nullam mus sed
+              vulputate gravida consequat. Quis proin mi rhoncus magnis lectus
+              hac facilisis vulputate. Placerat erat neque sapien nulla mattis
+              penatibus lacinia. Lacus luctus praesent felis nulla vitae sed.
+              Feugiat eget cursus pharetra molestie hendrerit consectetur et
+              sit. Elementum purus fusce nam porta ultrices faucibus vulputate
+              quis ut eget. Nulla sollicitudin suscipit praesent mollis interdum
+              faucibus finibus litora conubia amet.
+            </p>
+          </div>
+          <div class="explore">
+            <p>
+              Nulla lacus cras ipsum sodales tristique lectus euismod felis non
+              finibus auctor. Purus rhoncus facilisis nullam laoreet mauris
+              rutrum sem praesent phasellus quis cras. Neque morbi aliquet
+              curabitur diam sociosqu pellentesque elementum fringilla vehicula
+              interdum. Gravida primis sed lacinia aliquet in velit ad
+              consectetur vitae morbi suspendisse.
+            </p>
+            <p class="para">
+              Curabitur placerat cras eros duis adipiscing morbi litora
+              tristique luctus. Hendrerit venenatis a tempus nullam mus sed
+              vulputate gravida consequat. Quis proin mi rhoncus magnis lectus
+              hac facilisis vulputate. Placerat erat neque sapien nulla mattis
+              penatibus lacinia. Lacus luctus praesent felis nulla vitae sed.
+              Feugiat eget cursus pharetra molestie hendrerit consectetur et
+              sit. Elementum purus fusce nam porta ultrices faucibus vulputate
+              quis ut eget. Nulla sollicitudin suscipit praesent mollis interdum
+              faucibus finibus litora conubia amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- popular -->
+    <section class="section section-pop">
+      <div class="container">
+        <div class="most-pop">
+          <p class="para">Featured Exploration</p>
+          <h2 class="common-heading">Most Popular Categories</h2>
+          <p class="para">
+            Explore our website's most popular categories, featuring diverse
+            content that caters to various interests and passions. Find your
+            favorite!
+          </p>
+        </div>
+        <div class="grid grid-four-column img-pop">
+          <div class="explore contain-img">
+            <img src="./img/aisa.jpg" alt="" />
+            <div class="grid-content-pop">
+              <p>Explore</p>
+              <h3>Adventures Traveling</h3>
+              <a href="#" class="btn">Read Article</a>
+            </div>
+          </div>
+          <div class="review contain-img">
+            <img src="./img/australia.jpg" alt="" />
+            <div class="grid-content-pop">
+              <p>Review</p>
+              <h3>Hotel & Accommodations</h3>
+              <a href="#" class="btn">Read Article</a>
+            </div>
+          </div>
+          <div class="history contain-img">
+            <img src="./img/europe.jpg" alt="" />
+            <div class="grid-content-pop">
+              <p>History</p>
+              <h3>Culture & History Place</h3>
+              <a href="#" class="btn">Read Article</a>
+            </div>
+          </div>
+          <div class="fun-thing contain-img">
+            <img src="./img/southamerica.jpg" alt="" />
+            <div class="grid-content-pop">
+              <p>Fun-Thing</p>
+              <h3>Hiking & Camping</h3>
+              <a href="#" class="btn">Read Article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section class="section section-pop">
+      <div class="container">
+        <div class="most-pop">
+          <h2 class="common-heading">
+            “There’s a sunrise and a sunset every single day, and they’re
+            absolutely free. Don’t miss so many of them”
+          </h2>
+          <p class="para">– Jo Walton</p>
+        </div>
+        <div class="grid grid-two-column img-pop">
+          <div class="explore">
+            <p>
+              Nulla lacus cras ipsum sodales tristique lectus euismod felis non
+              finibus auctor. Purus rhoncus facilisis nullam laoreet mauris
+              rutrum sem praesent phasellus quis cras. Neque morbi aliquet
+              curabitur diam sociosqu pellentesque elementum fringilla vehicula
+              interdum. Gravida primis sed lacinia aliquet in velit ad
+              consectetur vitae morbi suspendisse.
+            </p>
+            <p class="para">
+              Curabitur placerat cras eros duis adipiscing morbi litora
+              tristique luctus. Hendrerit venenatis a tempus nullam mus sed
+              vulputate gravida consequat. Quis proin mi rhoncus magnis lectus
+              hac facilisis vulputate. Placerat erat neque sapien nulla mattis
+              penatibus lacinia. Lacus luctus praesent felis nulla vitae sed.
+              Feugiat eget cursus pharetra molestie hendrerit consectetur et
+              sit. Elementum purus fusce nam porta ultrices faucibus vulputate
+              quis ut eget. Nulla sollicitudin suscipit praesent mollis interdum
+              faucibus finibus litora conubia amet.
+            </p>
+          </div>
+          <div class="explore">
+            <p>
+              Nulla lacus cras ipsum sodales tristique lectus euismod felis non
+              finibus auctor. Purus rhoncus facilisis nullam laoreet mauris
+              rutrum sem praesent phasellus quis cras. Neque morbi aliquet
+              curabitur diam sociosqu pellentesque elementum fringilla vehicula
+              interdum. Gravida primis sed lacinia aliquet in velit ad
+              consectetur vitae morbi suspendisse.
+            </p>
+            <p class="para">
+              Curabitur placerat cras eros duis adipiscing morbi litora
+              tristique luctus. Hendrerit venenatis a tempus nullam mus sed
+              vulputate gravida consequat. Quis proin mi rhoncus magnis lectus
+              hac facilisis vulputate. Placerat erat neque sapien nulla mattis
+              penatibus lacinia. Lacus luctus praesent felis nulla vitae sed.
+              Feugiat eget cursus pharetra molestie hendrerit consectetur et
+              sit. Elementum purus fusce nam porta ultrices faucibus vulputate
+              quis ut eget. Nulla sollicitudin suscipit praesent mollis interdum
+              faucibus finibus litora conubia amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section">
+        <div class="container footer-sec">
+          <div class="grid grid-four-column footer-section">
+            <div class="first-col">
+              <h3>About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+            <div class="second-col">
+              <h3 class="">Categories</h3>
+              <p>Travel</p>
+              <p>Culinary</p>
+              <p>Local Culture</p>
+              <p>Backpacker</p>
+              <p>Backpacker</p>
+            </div>
+            <div class="third-col">
+              <h3>Destinations</h3>
+              <p>Asia</p>
+              <p>Europe</p>
+              <p>America</p>
+              <p>Africa</p>
+              <p>Australia</p>
+            </div>
+            <div class="fourth-col">
+              <h3>Get in touch</h3>
+              <p><a href="./contact.html">Contact Us</a></p>
+              <p>FAQ</p>
+              <p>Community</p>
+            </div>
+          </div>
+          <hr />
+          <br />
+          <div class="para">
+            <p>
+              © Copyright
+              <span id="copyright">
+                <script>
+                  document
+                    .getElementById("copyright")
+                    .appendChild(
+                      document.createTextNode(new Date().getFullYear())
+                    );
+                </script>
+              </span>
+              , All rights reserved!
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Travel Blog" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Suraj Naithani" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Travel Blog</title>
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header class="header">
+      <img src="./img/logo.png" alt="logo" class="logo" />
+      <nav class="navbar" id="navbar">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about us.html">About us</a></li>
+          <li><a href="/Destinations.html">Destinations</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+        </ul>
+        <img
+          src="./img/menu.png"
+          alt=""
+          class="icon logo"
+          onclick="toggleNav()"
+          id="menuIcon"
+        />
+        <img
+          src="./img/close.png"
+          class="icon logo"
+          alt=""
+          id="closeIcon"
+          style="display: none"
+          onclick="toggleNav()"
+        />
+      </nav>
+    </header>
+
+    <!-- herosection -->
+    <section class="section-hero">
+      <div class="hero">
+        <h1>Contact Us</h1>
+        <p class="para">We would love to hear from you.</p>
+      </div>
+    </section>
+    <!-- contact -->
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-four-column cont">
+          <div class="contact">
+            <h2 class="common">Location</h2>
+            <address>Clement Town, subhas nagar, dehradun</address>
+          </div>
+          <div class="contact">
+            <h2 class="common">Current loc</h2>
+            <address>Clement Town, subhas nagar, dehradun</address>
+          </div>
+          <div class="contact">
+            <h2 class="common">Email Us</h2>
+            <a href="mailto:">surajnathani4@gmail.com</a>
+          </div>
+          <div class="contact">
+            <h2 class="common">Call Us</h2>
+            <a href="tel:919045986868">7894561230</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="section">
+        <div class="container footer-sec">
+          <div class="grid grid-four-column footer-section">
+            <div class="first-col">
+              <h3>About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+            <div class="second-col">
+              <h3 class="">Categories</h3>
+              <p>Travel</p>
+              <p>Culinary</p>
+              <p>Local Culture</p>
+              <p>Backpacker</p>
+              <p>Backpacker</p>
+            </div>
+            <div class="third-col">
+              <h3>Destinations</h3>
+              <p>Asia</p>
+              <p>Europe</p>
+              <p>America</p>
+              <p>Africa</p>
+              <p>Australia</p>
+            </div>
+            <div class="fourth-col">
+              <h3>Get in touch</h3>
+              <p><a href="./contact.html">Contact Us</a></p>
+              <p>FAQ</p>
+              <p>Community</p>
+            </div>
+          </div>
+          <hr />
+          <br />
+          <div class="para">
+            <p>
+              © Copyright
+              <span id="copyright">
+                <script>
+                  document
+                    .getElementById("copyright")
+                    .appendChild(
+                      document.createTextNode(new Date().getFullYear())
+                    );
+                </script>
+              </span>
+              , All rights reserved!
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
